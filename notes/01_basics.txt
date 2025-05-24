@@ -1,0 +1,63 @@
+Javascript part 1: 
+
+Class 1: 
+
+1. Introduction to Javascript, Node.js ? 
+2. Why need Node.js ?
+3. How .js files were executed without node.js? 
+4. What is the advantage of having node.js when executing the .js file?
+5. What are Javascript Enginee? Which are they? 
+6. Write a simple JS program and execute it.
+7. Explain global execution content, brand new execution (inner execution context) with 5 .js file examples 
+		to view global, local, call stack in browser. 
+
+	Note: 🧨🎇🧨🎇🧨🎇
+
+		1. An index.html (sample html file) must be created for the .js file and it must be linked using script tag
+		2. The script tag should be placed as the last line of the code inside the body tag 
+			to ensure the .js get loaded after all the html contents are loaded
+
+8. Datatypes
+	a. Type casting of datatypes? Why and where is it needed? 
+
+9. Variables
+
+	Note: 🧨🎇🧨🎇🧨🎇
+    
+    ---Special feature of JS---
+
+	a. Hoisting in Javascript (Variables & Functions)
+		Hoisting is a phenomenon in JS of accessing the functions and variables even before the initialization
+	b. Why prefer let over var
+	c. block scope and global scope w.r.t let and var
+
+    Important : 🤷‍♂️🤷‍♂️ 🤷‍♂️🤷‍♂️
+
+    a. Hoisting concepts should be learnt after the completion of entire Part 1
+    b. However, Learning hoisting concepts from variable p.o.v can be done in class 1 section. 
+
+10. Difference between let, const and var
+11. Why prefer let over var variable? 
+12. Number & Math built in methods 
+13. Strings 
+14. Arrays
+
+
+Note: Practise programs w.r.t each topics
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Class 2: 
+
+1. Object
+2. Functions
+3. Control flows
+4. Loops
+
+Note: 🧨🎇🧨🎇🧨🎇
+
+    Important : 🤷‍♂️🤷‍♂️ Hoisting concepts should be learnt after the completion of entire Part 1 🤷‍♂️🤷‍♂️
+
+Note: Practise programs w.r.t each topics
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
