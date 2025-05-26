@@ -34,7 +34,8 @@ Class 1:
     Important : 🤷‍♂️🤷‍♂️ 🤷‍♂️🤷‍♂️
 
     a. Hoisting concepts should be learnt after the completion of entire Part 1
-    b. However, Learning hoisting concepts from variable p.o.v can be done in class 1 section. 
+    b. However, Learning hoisting concepts from variable p.o.v can be done in class 1 section
+    c. Global execution context creation (Theory) - Which is nothing but anonymous in the sources below Call Stack can be learned in here 
 
 10. Difference between let, const and var
 11. Why prefer let over var variable? 
