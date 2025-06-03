@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures in JavaScript</title>
+</head>
+<body>
+    
+    <h1>Closures in JavaScript 🎈🎈 </h1>
+    <input type="text" name="person" id="person">
+    <button id="btn1" onclick="saveName()">Save Details</button>
+    <button id="btn2" onclick="greet()">Greet the Guest</button>
+
+    <script>
+
+        let greet; //To hold the closure function 
+
+        function saveName(){
+
+         const name = document.getElementById(`person`).value
+
+        //This function captures the name and remembers it
+        greet = function(){
+            alert(`Welcome back ${name} 😍`)
+         }
+
+         alert(`Details are saved, Please click on greet the guest button 🥽🥽`)
+
+        }
+
+
+    </script>
+
+</body>
+</html>

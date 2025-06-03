@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greeting Example</title>
+</head>
+<body>
+  <h2>Enter Your Name</h2>
+  <input type="text" id="nameInput" placeholder="Your name" />
+  <button onclick="saveName()">Save Name</button>
+  <button onclick="greet()">Greet Me</button>
+
+  <script>
+    let greet; // This will hold our closure function
+
+    function saveName() {
+      const name = document.getElementById('nameInput').value;
+
+      // This function captures "name" and remembers it
+      greet = function() {
+        alert("Welcome back, " + name + "!");
+      };
+
+      alert("Name saved! Now click 'Greet Me'.");
+    }
+  </script>
+</body>
+</html>
