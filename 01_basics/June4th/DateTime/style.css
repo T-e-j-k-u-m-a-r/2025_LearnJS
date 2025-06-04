@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.container{
+    /* border: 1px solid darkgoldenrod; */
+    border-radius: 1%;
+    padding: 10px;
+    margin: 50px;
+    align-content: center;
+    width: 100px;
+    display: inline-block;
+    
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#date_and_time{
+    text-align: center;
+    margin-top: 20px;
+}

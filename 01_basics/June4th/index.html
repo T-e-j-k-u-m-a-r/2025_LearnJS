@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning the concept of Lexical Scope and Anonymous</title>
+</head>
+<body>
+    
+    <h1 class="title">Learning the concept of Lexical Scope and Anonymous</h1>
+
+
+    <input type="text" name="name" id="textbox">
+    <button id="saveDetails" onclick="saveDetails()">Save Details</button>
+    <button id="Greet" onclick="greet()">Greet the Guests</button>
+
+    <script>
+
+        let greet; //This will hold the closure function
+
+        function saveDetails(){
+
+           const name =  document.getElementById(`textbox`).value;
+
+           greet = function(){
+
+            alert(`Welcome - `+name)
+
+           }
+            alert(`Name details are saved! Please click on Greet button`)
+        }
+        
+        // Closure is a phenomenon where the function remember the environment and the lexical scope where its
+        //created even when the outer function has been executed 
+
+        // Generally, Closures are created when function are created at the created environment
+
+    </script>
+
+
+    <!-- <script src="lexicalScope.js"></script> -->
+
+</body>
+</html>
