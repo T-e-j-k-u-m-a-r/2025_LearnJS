@@ -1,5 +1,5 @@
 // const input = "123-456-7788";
-// const regex = /(\d+)-(\d+)-(\d+)/g;
+const regex = /(\d+)-(\d+)-(\d+)/g;
 
 // const result = input.replace(regex,function(m1,g1,g2,g3){
 
