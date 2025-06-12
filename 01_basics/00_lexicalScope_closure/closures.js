@@ -1,4 +1,4 @@
-let greet;//This is where the closure is saved
+let greet;  //This is where the closure is saved
 
 function saveButton(){
 
